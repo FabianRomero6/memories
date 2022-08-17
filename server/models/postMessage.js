@@ -1,5 +1,5 @@
-import mongoose from "mongoose";
-
+import mongoose from 'mongoose';
+//like the dbcontext
 const postSchema = mongoose.Schema({
   title: String,
   message: String,
@@ -8,11 +8,11 @@ const postSchema = mongoose.Schema({
   selectedFile: String,
   likeCount: {
     type: Number,
-    default: 0
+    default: 0,
   },
   createdAt: {
     type: Date,
-    default: new Date()
+    default: new Date(),
   },
 });
 

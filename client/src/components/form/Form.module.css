@@ -1,0 +1,26 @@
+.root > div {
+  margin: 8px;
+}
+
+.root > button {
+  margin: 8px;
+}
+
+.paper {
+  padding: 16px;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.file_input {
+  width: 97%;
+  margin: 10px 0;
+}
+
+.button__submit {
+  margin-bottom: 10px;
+}
